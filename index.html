@@ -3,149 +3,215 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Meridian Beard Co. | Clean beard care</title>
-  <meta name="description" content="Meridian Beard Co. makes clean, no-nonsense beard oils, balms, and grooming essentials." />
-  <meta name="theme-color" content="#0f2f25" />
 
-  <!-- Social preview (optional but nice) -->
+  <title>Meridian Beard Co. | Dark, clean beard care</title>
+  <meta name="description" content="Meridian Beard Co. makes clean beard oils and balms with grounded scents and no filler nonsense." />
+  <meta name="theme-color" content="#0b0f14" />
+
+  <!-- Open Graph -->
   <meta property="og:title" content="Meridian Beard Co." />
-  <meta property="og:description" content="Clean beard care. Straightforward formulas. No weird stuff." />
+  <meta property="og:description" content="Dark, clean beard care. Steel. Wood. Brick. No filler." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://meridianbeardco.com" />
+  <meta property="og:url" content="https://www.meridianbeardco.com" />
+  <!-- If you add an image later: assets/images/og.jpg (1200x630) -->
+  <!-- <meta property="og:image" content="https://www.meridianbeardco.com/assets/images/og.jpg" /> -->
 
   <link rel="icon" href="assets/favicon.png" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
-  <header class="wrap header">
-    <div class="brand">
-      <div class="mark" aria-hidden="true"></div>
-      <div class="brandtext">
-        <div class="name">Meridian Beard Co.</div>
-        <div class="tag">Clean beard care — simple, solid, legit.</div>
-      </div>
-    </div>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top" aria-label="Meridian Beard Co. home">
+        <span class="mark" aria-hidden="true"></span>
+        <span class="brand-text">
+          <span class="brand-name">Meridian Beard Co.</span>
+          <span class="brand-tag">steel · wood · brick</span>
+        </span>
+      </a>
 
-    <nav class="nav">
-      <a href="#products">Products</a>
-      <a href="#about">About</a>
-      <a href="#contact" class="pill">Contact</a>
-    </nav>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="pill">Contact</a>
+      </nav>
+    </div>
   </header>
 
-  <main>
-    <section class="wrap hero">
-      <div class="hero-left">
-        <h1>Smell good. Feel sharp. Keep it clean.</h1>
-        <p class="lead">
-          Meridian Beard Co. makes the best damn beard oils and balms with straight-up ingredients and a vibe that’s more
-          “night wood + clean shave” than “mall cologne.”
-        </p>
+  <main id="top">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <h1>Built for night. Made for daily.</h1>
+          <p class="lead">
+            Meridian is clean beard care with weight to it. No candy scents. No mystery junk.
+            Just straightforward formulas and grounded blends that feel like steel, wood, and late light.
+          </p>
 
-        <div class="cta">
-          <a class="btn primary" href="#contact">Get in touch</a>
-          <a class="btn ghost" href="#products">See products</a>
+          <div class="cta">
+            <a class="btn primary" href="#contact">Order / Wholesale</a>
+            <a class="btn ghost" href="#products">See the lineup</a>
+          </div>
+
+          <div class="micro">
+            <span>Clean ingredients</span>
+            <span>Low-key, masculine scents</span>
+            <span>Daily performance</span>
+          </div>
         </div>
 
-        <div class="micro">
-          <span>✔️ No-nonsense formulas</span>
-          <span>✔️ Small-batch mindset</span>
-          <span>✔️ Built for daily use</span>
-        </div>
-      </div>
+        <div class="hero-panel">
+          <div class="feature-card">
+            <div class="feature-top">
+              <span class="chip">Featured</span>
+              <h2 class="feature-title">Midnight Classic</h2>
+              <p class="feature-sub">cedar · vanilla · vetiver</p>
+            </div>
 
-      <div class="hero-right">
-        <div class="card">
-          <div class="card-top">
-            <div class="chip">Featured</div>
-            <div class="title">Midnight Classic</div>
-            <div class="subtitle">Cedar • Vanilla • Vetiver</div>
+            <!-- OPTIONAL: drop in a hero image -->
+            <!--
+            <div class="feature-media">
+              <img src="assets/images/hero.jpg" alt="Meridian Beard Co. Midnight Classic beard oil" />
+            </div>
+            -->
+
+            <div class="feature-body">
+              <ul>
+                <li>Softens coarse beard hair</li>
+                <li>Hydrates skin underneath</li>
+                <li>Grounded scent — not overpowering</li>
+              </ul>
+            </div>
+
+            <div class="feature-actions">
+              <a class="btn small primary" href="#contact">Get it</a>
+              <a class="btn small ghost" href="#about">Ingredient stance</a>
+            </div>
           </div>
-          <div class="card-body">
-            <ul>
-              <li>Softens + conditions beard hair</li>
-              <li>Hydrates skin underneath</li>
-              <li>Grounded, warm, not overpowering</li>
-            </ul>
-          </div>
-          <div class="card-bottom">
-            <a class="btn small primary" href="#contact">Order / wholesale</a>
-            <a class="btn small ghost" href="#about">Ingredients philosophy</a>
+
+          <div class="stats">
+            <div class="stat">
+              <div class="stat-k">No filler</div>
+              <div class="stat-v">Purpose-only formulas</div>
+            </div>
+            <div class="stat">
+              <div class="stat-k">No fluff</div>
+              <div class="stat-v">Built for real daily use</div>
+            </div>
+            <div class="stat">
+              <div class="stat-k">No loud</div>
+              <div class="stat-v">Scents stay in your lane</div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="products" class="wrap section">
-      <h2>Products</h2>
-      <p class="sub">A tight lineup. Everything earns its spot.</p>
+    <section id="products" class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Products</h2>
+          <p class="sub">A tight lineup. Everything earns its place.</p>
+        </div>
 
-      <div class="grid">
-        <article class="tile">
-          <h3>Beard Oil</h3>
-          <p>Daily conditioning, less itch, healthier look. Light feel, real performance.</p>
-          <div class="meta">Best for: everyday • dry skin • coarse beard</div>
-        </article>
+        <div class="grid">
+          <article class="tile">
+            <!-- Optional image -->
+            <!-- <img class="tile-img" src="assets/images/oil.jpg" alt="Meridian Beard Oil" /> -->
+            <h3>Beard Oil</h3>
+            <p>Daily conditioning that actually feels clean. Softens, reduces itch, and keeps skin calm.</p>
+            <div class="meta">Best for: everyday · dry skin · coarse beard</div>
+          </article>
 
-        <article class="tile">
-          <h3>Beard Balm</h3>
-          <p>Soft hold + conditioning. Tames flyaways and shapes without looking greasy.</p>
-          <div class="meta">Best for: control • styling • colder weather</div>
-        </article>
+          <article class="tile">
+            <!-- Optional image -->
+            <!-- <img class="tile-img" src="assets/images/balm.jpg" alt="Meridian Beard Balm" /> -->
+            <h3>Beard Balm</h3>
+            <p>Soft hold + conditioning. Tames flyaways and adds control without looking greasy.</p>
+            <div class="meta">Best for: control · shaping · colder weather</div>
+          </article>
 
-        <article class="tile">
-          <h3>Beard Wash (soon)</h3>
-          <p>Clean rinse that doesn’t strip your face like a bad life decision.</p>
-          <div class="meta">Best for: gentle clean • daily use</div>
-        </article>
+          <article class="tile">
+            <!-- Optional image -->
+            <!-- <img class="tile-img" src="assets/images/wash.jpg" alt="Meridian Beard Wash" /> -->
+            <h3>Beard Wash (soon)</h3>
+            <p>Clean rinse that doesn’t strip your face. Built for frequent use.</p>
+            <div class="meta">Best for: gentle clean · daily routine</div>
+          </article>
+        </div>
       </div>
     </section>
 
-    <section id="about" class="wrap section">
-      <h2>About Meridian</h2>
-      <div class="two">
-        <p>
-          Meridian Beard Co. is built around one idea: make grooming products you actually want to use daily.
-          Clean ingredients, grounded scents, and no filler nonsense.
-        </p>
-        <p>
-          If a thing doesn’t improve the experience — it doesn’t make the cut. That’s the rule.
-          (And yeah… we take scent seriously.)
-        </p>
-      </div>
+    <section id="about" class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>About Meridian</h2>
+          <p class="sub">No mystery fragrance. No filler ingredients. No trendy nonsense.</p>
+        </div>
 
-      <div class="callout">
-        <strong>Ingredient stance:</strong> simple, recognizable, and purposeful. If you want “mystery fragrance” and
-        47 unpronounceable extras, there are plenty of other shelves.
+        <div class="two">
+          <p>
+            Meridian Beard Co. is built around one idea: make grooming products you want to use every day.
+            Clean ingredients, disciplined scent profiles, and formulas that do the job without drama.
+          </p>
+          <p>
+            If it doesn’t improve performance, it doesn’t make the cut. That’s the rule.
+            We build blends that feel grounded — like a barbershop after hours, not a candle aisle.
+          </p>
+        </div>
+
+        <div class="callout">
+          <strong>Ingredient stance:</strong> recognizable, purposeful, and restrained.
+          If something exists just to sound impressive on a label, it’s out.
+        </div>
       </div>
     </section>
 
-    <section id="contact" class="wrap section">
-      <h2>Contact</h2>
-      <p class="sub">Retail, wholesale, collabs, questions — hit us.</p>
+    <section id="contact" class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <h2>Contact</h2>
+          <p class="sub">Retail, wholesale, collabs, questions — reach out.</p>
+        </div>
 
-      <div class="contact">
-        <a class="btn primary" href="mailto:info@meridianbeardco.com?subject=Meridian%20Beard%20Co%20Inquiry">
-          Email: info@meridianbeardco.com
-        </a>
+        <div class="contact-grid">
+          <a class="btn primary" href="mailto:info@meridianbeardco.com?subject=Meridian%20Beard%20Co%20Inquiry">
+            Email: info@meridianbeardco.com
+          </a>
 
-        <div class="contact-card">
-          <div class="label">Social</div>
-          <div class="links">
-            <a href="#" aria-label="Instagram">Instagram</a>
-            <a href="#" aria-label="TikTok">TikTok</a>
-            <a href="#" aria-label="Shop">Shop</a>
+          <div class="contact-card">
+            <div class="label">Links</div>
+            <div class="links">
+              <a href="#" aria-label="Instagram">Instagram</a>
+              <a href="#" aria-label="TikTok">TikTok</a>
+              <a href="#" aria-label="Shop">Shop</a>
+            </div>
+            <div class="hint">Replace the # links with your real URLs.</div>
           </div>
-          <div class="hint">Replace the # links with your real URLs.</div>
+        </div>
+
+        <div class="fineprint">
+          <span>© <span id="y"></span> Meridian Beard Co.</span>
+          <span class="dot" aria-hidden="true">•</span>
+          <span>Built lean. No trackers by default.</span>
         </div>
       </div>
     </section>
   </main>
 
-  <footer class="wrap footer">
-    <div>© <span id="y"></span> Meridian Beard Co.</div>
-    <div class="fine">Built lean. No trackers by default.</div>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div class="footer-left">
+        <div class="footer-brand">Meridian Beard Co.</div>
+        <div class="footer-sub">steel · wood · brick</div>
+      </div>
+      <div class="footer-right">
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
   </footer>
 
   <script>
@@ -153,4 +219,3 @@
   </script>
 </body>
 </html>
-
