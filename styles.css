@@ -357,6 +357,16 @@ h1{
   color: rgba(230,225,216,.88);
   font-size:13px;
 }
+.status{
+  margin-top:6px;
+  font-size:13px;
+  letter-spacing:.3px;
+  color: rgba(230,225,216,.72);
+  text-transform:uppercase;
+}
+.status.available{
+  color: rgba(230,225,216,.9);
+}
 
 .featured-actions{
   display:flex;
