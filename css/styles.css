@@ -81,7 +81,7 @@ img{max-width:100%; height:auto}
   text-transform:uppercase;
 }
 
-.brand-tag
+.brand-tag,
 .about-centered,
 .ingredients-centered{
   text-align: center;
